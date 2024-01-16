@@ -1,25 +1,15 @@
 package de.byeshurun.bywood4you.testStuff
 
-import android.Manifest
-import android.content.pm.PackageManager
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.SparseArray
-import android.view.SurfaceHolder
 import android.view.SurfaceView
-import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import com.google.android.gms.vision.CameraSource
-import com.google.android.gms.vision.Detector
-import com.google.android.gms.vision.barcode.Barcode
-import com.google.android.gms.vision.barcode.BarcodeDetector
 import de.byeshurun.bywood4you.R
 import de.byeshurun.bywood4you.logic.database.DbManager
-import java.io.IOException
 
 class TestStuffActivity : AppCompatActivity() {
 

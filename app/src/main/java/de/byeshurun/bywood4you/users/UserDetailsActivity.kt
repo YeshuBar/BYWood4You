@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import de.byeshurun.bywood4you.R
-import de.byeshurun.bywood4you.data.MockData
 import de.byeshurun.bywood4you.logic.database.DbManager
 import de.byeshurun.bywood4you.model.User
 

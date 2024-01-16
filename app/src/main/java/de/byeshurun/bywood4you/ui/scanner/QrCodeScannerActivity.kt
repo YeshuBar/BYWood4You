@@ -6,13 +6,11 @@ import android.os.Bundle
 import android.util.SparseArray
 import android.view.SurfaceHolder
 import android.view.SurfaceView
-import android.view.View.OnClickListener
 import android.view.WindowManager
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.content.PackageManagerCompat
 import com.google.android.gms.vision.CameraSource
 import com.google.android.gms.vision.Detector
 import com.google.android.gms.vision.barcode.Barcode
@@ -69,7 +67,7 @@ class QrCodeScannerActivity : AppCompatActivity() {
                 try {
                     if (ActivityCompat.checkSelfPermission(
                             this@QrCodeScannerActivity,
-                            android.Manifest.permission.CAMERA
+                            Manifest.permission.CAMERA
                         ) == PackageManager.PERMISSION_GRANTED
                     ) {
                         cameraSource.start(holder)

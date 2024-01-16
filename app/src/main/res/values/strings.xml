@@ -63,6 +63,8 @@
     <string name="invalid_both" tools:ignore="MissingTranslation">Invalid user name and password!</string>
     <string name="enter_both" tools:ignore="MissingTranslation">Please enter your user name and password</string>
     <string name="department_info_text_portait" tools:ignore="MissingTranslation">\"%s\\nStart: %s \\nEnd: %s \"</string>
+    <string name="users">Users</string>
+    <string name="orders">Orders</string>
 
 
 </resources>

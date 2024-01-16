@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import de.byeshurun.bywood4you.R
 import de.byeshurun.bywood4you.adapter.UserListAdapter
-import de.byeshurun.bywood4you.data.MockData
 import de.byeshurun.bywood4you.logic.database.DbManager
 
 class UserAdministrationActivity : AppCompatActivity() {

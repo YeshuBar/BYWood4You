@@ -23,6 +23,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:icon="@android:drawable/ic_menu_share"
-        android:title="@string/"
+        android:title="@string/share"
         app:showAsAction="ifRoom" />
 </menu>

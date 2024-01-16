@@ -3,7 +3,6 @@ package de.byeshurun.bywood4you.logic.database
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import de.byeshurun.bywood4you.data.MockData.Companion.users
 import de.byeshurun.bywood4you.model.User
 
 class DbManager private constructor(context: Context) :
