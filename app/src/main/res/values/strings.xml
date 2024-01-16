@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">BYWood4You</string>
+
+    <string name="login" translatable="false">Login</string>
+    <string name="dashboard" translatable="false">Dashboard</string>
+
+    <string name="user_administration">User Administration</string>
+    <string name="order_administration">Order Administration</string>
+    <string name="order_details">Order Details</string>
+    <string name="settings">Settings</string>
+
+    <string name="wood4ulogo" translatable="false">Wood for you - Logo</string>
+
+    <string name="help">Help</string>
+    <string name="information" tools:ignore="MissingTranslation">Information</string>
+    <string name="information_text">Here to help!</string>
+    <string name="mockOrder" tools:ignore="MissingTranslation">Stool - Shipping</string>
+
+    <string name="department_info">"%s\nStart: %s \nEnd: %s "</string>
+    <string name="department_info_land">"%s Start: %s End: %s "</string>
+    <string name="order_id">Order Id</string>
+    <string name="order_name">Order Name\n</string>
+    <string name="order_department">Order Department</string>
+
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="share">share</string>
+
+    <string name="start_system_camera_app">Start system camera app</string>
+    <string name="camera_permission_denied">Cannot scan, camera permission denied</string>
+    <string name="qr_code_scan_dialog_title">Scan Department Status</string>
+    <string name="qr_code_scan_dialog_message">Please scan the Department status QR-Code</string>
+    <string name="department_start_code">Department Start Code</string>
+    <string name="qr_code_scan_result">QR-CODE: Scan result</string>
+
+    <string name="welcome" tools:ignore="MissingTranslation">Welcome!</string>
+    <string name="add_user">Add User</string>
+    <string name="user_id">User ID</string>
+    <string name="user_name" tools:ignore="MissingTranslation">User Name</string>
+    <string name="user_password" tools:ignore="MissingTranslation">User Password</string>
+    <string name="user_department" tools:ignore="MissingTranslation">User Department</string>
+    <string name="submit_user">Submit User</string>
+    <string name="user_details" tools:ignore="MissingTranslation">User Details</string>
+    <string name="user_info_text" tools:ignore="MissingTranslation">Name: %s\nID: %d\nDepartment: %s\nPassword: %s</string>
+
+    <string name="location_permission_denied">Permission for location access denied</string>
+    <string name="get_location">Retrieve Location</string>
+    <string name="location_not_found">Location not found</string>
+    <string name="location_coordinates">Latitude: %1$.6f, Longitude: %2$.6f</string>
+    <string name="location_failure">Location request failed: %1$s</string>
+    <string name="export_to_csv">Export data to CSV</string>
+    <string name="start_phone_activity">Call Support Hotline</string>
+    <string name="uri_phone_number">tel:1700707070</string>
+
+    <string name="login_failed">Login Failed!</string>
+    <string name="submitting_user_data_failed" tools:ignore="MissingTranslation">Submitting User data failed. Please fill out the form according to Norms and Regulations.</string>
+    <string name="submitted_user_data_successfully" tools:ignore="MissingTranslation">Submitted User successfully</string>
+    <string name="enter_username" tools:ignore="MissingTranslation">Enter Username</string>
+    <string name="userName" tools:ignore="MissingTranslation">Enter user name</string>
+    <string name="second_input" tools:ignore="MissingTranslation">Enter user password</string>
+    <string name="invalid_username" tools:ignore="MissingTranslation">Invalid user name!</string>
+    <string name="invalid_password" tools:ignore="MissingTranslation">Invalid password!</string>
+    <string name="invalid_both" tools:ignore="MissingTranslation">Invalid user name and password!</string>
+    <string name="enter_both" tools:ignore="MissingTranslation">Please enter your user name and password</string>
+    <string name="department_info_text_portait" tools:ignore="MissingTranslation">\"%s\\nStart: %s \\nEnd: %s \"</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_layout_padding"
+    tools:context=".testStuff.TestStuffActivity">
+
+    <Button
+        android:id="@+id/testStuff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testThisStuff"
+        android:text="Test Stuff"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Output"
+        android:inputType="textMultiLine" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/scanResult"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="34sp" />-->
+
+<!--    <SurfaceView-->
+<!--        android:id="@+id/surfaceView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

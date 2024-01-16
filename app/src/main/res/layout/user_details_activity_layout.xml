@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context=".users.UserDetailsActivity">
+
+    <TextView
+        android:id="@+id/headerUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/user_id"
+        android:textColor="@color/black"
+        android:textSize="@dimen/header_text_size" />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_id"
+        android:inputType="text"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/user_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/header_text_size" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerUserDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/user_department"
+        android:textColor="@color/black"
+        android:textSize="@dimen/header_text_size" />
+
+    <EditText
+        android:id="@+id/userDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_department"
+        android:inputType="text"
+        android:textSize="@dimen/input_text_size" />
+
+    <TextView
+        android:id="@+id/headerUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/header_top_margin"
+        android:text="@string/user_password"
+        android:textColor="@color/black"
+        android:textSize="@dimen/header_text_size" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/input_text_size" />
+
+    <Button
+        android:id="@+id/submitUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:text="@string/submit_user"
+        android:textAllCaps="false"
+        android:textSize="@dimen/input_text_size" />
+</LinearLayout>

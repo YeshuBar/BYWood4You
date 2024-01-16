@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BYWood4You</string>
+    <string name="user_administration">" Benutzerverwaltung"</string>
+    <string name="order_administration">Bestellverwaltung</string>
+    <string name="order_details">Bestelldetails</string>
+    <string name="settings">Einstellungen</string>
+    <string name="help">Hilfe</string>
+    <string name="information_text">Eine hilfreiche Nachricht</string>
+
+    <string name="department_info">"%s\nStart: %s \nEnde: %s "</string>
+    <string name="department_info_land">"%s Start: %s Ende: %s "</string>
+    <string name="order_id">BestellungsID</string>
+    <string name="order_name">Bestellname</string>
+    <string name="order_department">Bestellungsabteilung</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="share">Teilen</string>
+    <string name="start_system_camera_app">Systemkamera starten</string>
+    <string name="qr_code_scan_result">QR-CODE: Scanergebnis</string>
+    <string name="qr_code_scan_dialog_title">Abteilungstatus scannen</string>
+    <string name="qr_code_scan_dialog_message">Bitte scann Sie die Status-QR-CODE ihrer Abteilung</string>
+    <string name="department_start_code">Abteilungs Startcode</string>
+    <string name="camera_permission_denied">Es kann nicht gescannt werden die App hat keine Berechtigung auf die Kamera zuzugreifen</string>
+    <string name="add_user">Benutzer hinzufügen</string>
+    <string name="user_id">BenutzerID</string>
+    <string name="submit_user">Benutzer übernehemen</string>
+    <string name="location_permission_denied">Standort berechtigung abgelehnt</string>
+    <string name="get_location">Standort feststellen</string>
+    <string name="location_not_found">Standort nicht gefunden</string>
+    <string name="location_failure">Standortfestellung fehlgeschlagen</string>
+    <string name="location_coordinates">Längengrad: %2$.6f, Breitengrad: %1$.6f</string>
+    <string name="export_to_csv">Benutzer in CSV-Datei exportieren</string>
+    <string name="start_phone_activity">Support-Hotline anrufen</string>
+    <string name="uri_phone_number">tel:1700707070</string>
+
+    <string name="login_failed">Login fehlgeschlagen</string>
+</resources>

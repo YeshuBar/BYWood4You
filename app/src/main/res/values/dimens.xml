@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_button_margin">12dp</dimen>
+    <dimen name="default_layout_padding">16dp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="input_text_size">34sp</dimen>
+    <dimen name="header_text_size">24sp</dimen>
+    <dimen name="header_top_margin">15dp</dimen>
+</resources>

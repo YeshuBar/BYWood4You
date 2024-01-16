@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.settings.SettingsActivity">
+
+    <Button
+        android:id="@+id/readCurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:text="@string/get_location"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/locationData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/location_not_found"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/exportDbDataToCsvFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:text="@string/export_to_csv"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/startPhoneActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:text="@string/start_phone_activity"
+        android:textAllCaps="false" />
+
+</LinearLayout>
